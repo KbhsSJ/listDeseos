@@ -3,11 +3,11 @@
 export class ListaItem {
 
     desc: string;
-    comnpletado: boolean;
+    completado: boolean;
 
     constructor( desc: string){
         this.desc = desc;
-        this.comnpletado = false;
+        this.completado = false;
     }
 
 }
